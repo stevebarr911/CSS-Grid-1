@@ -16,12 +16,12 @@
 }
 
 html, body {
-    background-color: #ffeead;
+    background-color: #ade8ffad;
     margin: 10px;
 }
 
 
-/* Layout Spacing Styles */
+/* CSS Grid Layout Styles */
 
 .container {
     display: grid;
@@ -42,4 +42,15 @@ html, body {
 .big {
     grid-column: span 2;
     grid-row: span 2;
+}
+
+.header {
+    grid-column: 1 / -1;
+    color: #921bc9;
+    background-color: #c91bb2;
+}
+
+.footer {
+    grid-column: 1 / -1; 
+    background-color: #c91bb2;
 }
